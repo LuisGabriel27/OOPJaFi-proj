@@ -73,9 +73,6 @@ public abstract class Apparels {
         this.stock = this.stock - quantity;
         return true;
     }
-
-    public void inventoryStock(){
-
-    }
+//gnkakas ko ang inventory stock method
 
 }
