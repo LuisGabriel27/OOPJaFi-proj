@@ -12,6 +12,9 @@ public class Main {
 
         System.out.println(order1.computeOrder());
         System.out.println(app1.getStock());
+        System.out.println(app2.getStock());
+        System.out.println(app3.getStock());
+
 
     }
 }
