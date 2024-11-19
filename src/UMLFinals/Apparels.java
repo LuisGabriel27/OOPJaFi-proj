@@ -65,6 +65,15 @@ public abstract class Apparels {
         this.stock = stock;
     }
 
+    public boolean reduceStock(int quantity) {
+        if (quantity > this.stock) {
+            System.out.println("Not enough stock available!");
+            return false;
+        }
+        this.stock = this.stock - quantity;
+        return true;
+    }
+
     public void inventoryStock(){
 
     }

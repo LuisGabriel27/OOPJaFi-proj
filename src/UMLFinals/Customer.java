@@ -7,16 +7,14 @@ public class Customer{
     private String address;
     private String email;
     private String phone;
-    private double payment;
 
-    public Customer(String firstName, String lastName, int age, String address, String email, String phone, double payment) {
+    public Customer(String firstName, String lastName, int age, String address, String email, String phone) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.age = age;
         this.address = address;
         this.email = email;
         this.phone = phone;
-        this.payment = payment;
     }
 
     public String getFirstName() {
@@ -67,14 +65,6 @@ public class Customer{
         this.phone = phone;
     }
 
-    public double getPayment() {
-        return payment;
-    }
-
-    public void setPayment(double payment) {
-        this.payment = payment;
-    }
-
     public void displayCustomer() {
         System.out.println("First Name: " + firstName);
         System.out.println("Last Name: " + lastName);
@@ -82,6 +72,5 @@ public class Customer{
         System.out.println("Address: " + address);
         System.out.println("Email: " + email);
         System.out.println("Phone: " + phone);
-        System.out.println("Payment: " + payment);
     }
 }
