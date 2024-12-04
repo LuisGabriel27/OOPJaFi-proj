@@ -82,4 +82,6 @@ public abstract class Apparels implements DisplayProduct{
 
     }
 
+    public void toSortByPrice(){}
+
 }

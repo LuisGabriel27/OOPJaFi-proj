@@ -1,4 +1,6 @@
 package UMLFinals;
+import java.util.Queue;
+import java.util.Scanner;
 
 public class Order{
     private int quantity;
@@ -57,8 +59,8 @@ public class Order{
     public void displayReceipt(){
         System.out.println("Hello world");
     }
-    public void showCart(){
-
-
-    }
+    public void addToCart(){}
+    public void checkOutItems(){}
+    public void showCart() {}
 }
+
